@@ -1,15 +1,18 @@
 // Lamont Sims         J00968337
 // Program #22         Page #264
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 int main()
 {
-    int a, b;
+    int a, b, x, d;
     bool is_prime = true;
-    int c, d, e, f, g, h, i, j, k, l, m;
 
     cin >> b;
     
+    x == b%2;
+    d == 1;
+
     if (b == 0 || b == 1)
       {
         is_prime = false;
@@ -25,8 +28,9 @@ int main()
   
 
    if (is_prime)
-      cout << " Number " << b << " is prime !" << endl;
-  return 0;
-
+      cout << "Number " << b << " is prime!" << endl;
+   if (b%2 == d++)
+      cout << x << endl;
+      return 0;
+   
 }
-
