@@ -25,8 +25,11 @@ int main()
       }
   
 
-   if (is_prime)
+   while (is_prime){
       cout << "Number " << b << " is prime!" << endl;
+      return 0;
+   }
+
    if (b%2 == 0)
      cout << 2 << endl;
    if (b%3 == 0)
@@ -49,6 +52,7 @@ int main()
      cout << 29 << endl;
    if (b%31 == 0)
       cout << 31 << endl;
-      return 0;
-   
+
+   return 0;
+
 }
